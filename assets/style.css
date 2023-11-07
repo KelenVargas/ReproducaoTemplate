@@ -22,17 +22,17 @@ body {
 }
 
 .container-Navbar {
-    display: flex;
-    flex-flow: column;
-    width: 100%;
-    top: 5px;
     height: 60px;
-
+    display: flex;
+    flex-flow:column;
 }
 
 .navBar {
+    position: relative;
+    bottom: 75px;
     background-color: rgba(58, 57, 57, 0.5);
-    margin-top: 195px;
+    
+    
 }
 
 .Titulo {
@@ -47,7 +47,7 @@ body {
 
 /* quando o mouse passar no link*/
 a:hover {
-    color: rgb(31, 31, 134);
+    color: #bfddf3;
 }
 
 
@@ -63,12 +63,13 @@ a {
 }
 
 .navLink.active {
-    color: rgb(31, 31, 134);
+    color: #bfddf3;
 }
 
 .navBar-ul {
     display: flex;
     justify-content: space-evenly;
+    margin-top: 10px;
 }
 
 /*
