@@ -5,6 +5,7 @@
     background-size: cover;
     height: 300px;
     padding: 60px 80px;
+   
 }
 
 .Titulo,
@@ -14,17 +15,18 @@
 }
 
 .container-Navbar {
-    position: fixed;
+    display: flex;
+    flex-flow: column;
     width: 100%;
-    top: 5px;
-    right: 10px;
-    width: 200px;
-    z-index: 1000;
+    top: 5px; 
+    height: 35px;  
+   
 }
 
 .navBar {
     background-color: rgba(0, 0, 0, 0.5);
-}
+    margin-top: 220px;
+   }
 
 .Titulo {
     font-size: 80px;
@@ -43,15 +45,22 @@ a:hover {
 
 
 a:link {
-    color: #FFF;
+
     text-decoration: none;
     font-weight: bold;
+    font-size: 30px;    
 }
 
-a {  
+a {
     color: #FFF;
 }
 
-.navLink.active{
+.navLink.active {
     color: aquamarine;
 }
+
+.navBar-ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
