@@ -159,12 +159,11 @@ Index */
     margin-right: 0;
 }
 
-.galeria-nav .link-navegacao.ativo,
-.galeria-nav .link-navegacao:focus,
-.galeria-nav .link-navegacao:hover {
-    background: #076599;
+.navegacao-galeria .item-navegacao:hover {
+    background-color: #186e9d;
     color: white;
 }
+
 
 .img-centro {
     display: block;
@@ -177,3 +176,43 @@ Index */
     margin-left: auto;
     margin-right: auto;
 }
+.navegacao-galeria {
+    position: relative;
+    bottom: 20px;
+    text-align: center;
+}
+
+.lista-navegacao {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.item-navegacao {
+    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    width: 30px;
+    height: 40px;
+    line-height: 45px;
+}
+
+.item-navegacao.active {
+    background-color: #186e9d;
+}
+
+.item-navegacao:hover {
+    background-color: #186e9d;
+}
+
+
+.item-navegacao a {
+    color: #4F4F4F;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+    

@@ -24,3 +24,19 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     }
   });
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var itensNavegacao = document.querySelectorAll('.item-navegacao');
+    
+    itensNavegacao.forEach(function(item) {
+        item.addEventListener('click', function() {
+            // Remove a classe 'active' de todos os itens de navegação
+            itensNavegacao.forEach(function(item) {
+                item.classList.remove('active');
+            });
+
+            // Adiciona a classe 'active' ao item de navegação clicado
+            this.classList.add('active');
+        });
+    });
+});
