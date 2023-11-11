@@ -7,7 +7,7 @@ body {
 	overflow-x: hidden;
 }
 .cabecalho {
-    background: url('https://img.freepik.com/fotos-premium/livros-no-fundo_941466-1902.jpg?w=826') no-repeat;
+    background: url('./img/header-01.jpg') no-repeat;
     position: relative;
     border-bottom: 15px solid #0f4968;
     background-size: cover;
@@ -54,8 +54,7 @@ a:hover {
 a:link {
 
     text-decoration: none;
-    font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 a {
@@ -68,7 +67,7 @@ a {
 .navBar-ul {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 /*
@@ -214,5 +213,8 @@ Index */
     text-decoration: none;
     font-size: 18px;
 }
-
+.texto-preview{
+    position: relative;
+    align-items: center;
+}
     
