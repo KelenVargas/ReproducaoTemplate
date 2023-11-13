@@ -29,40 +29,62 @@
             </nav>
         </header>
 
-        <h2>Contact Us</h2>
+        <h2 class="TituloContact">Contact Us</h2>
 
-        <div>
-            <form action="#" method="post">
-                <div>
-                    <input type="text" id="contact_name" name="contact_name" placeholder="Name" required />
-                </div>
-                <div>
-                    <input type="email" id="contact_email" name="contact_email" placeholder="Email" required />
-                </div>
-                <div>
-                    <textarea id="contact_message" name="contact_message" rows="8" placeholder="Message"
-                        required></textarea>
-                </div>
-                <button type="submit">Submit</button>
-            </form>
+        <div class="boxForm">
+            <div class="col-md-12"></div>
+            <div class="op1">
+                <form action="#" method="post">
+                    <div class="formGroup">
+                        <input type="text" id="contact_name" name="contact_name" placeholder="Name" class="formControl"
+                            required />
+                    </div>
+                    <div class="formGroup">
+                        <input type="email" id="contact_email" name="contact_email" placeholder="Email"
+                            class="formControl" required />
+                    </div>
+                    <div class="formGroup">
+                        <textarea id="contact_message" name="contact_message" rows="8" class="formControl"
+                            placeholder="Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btnSubmit">Submit</button>
+                </form>
+            </div>
+
+            <div class="op2">
+                <p class="tm-address">Morbi auctor euismod dictum. Morbi eu nibh in nulla interdum placerat. Donec pellentesque est at sem
+                    aliquam hendrerit.</p>
+                <address>
+                    <span class="textLinkContact">Mailing Address</span><br>
+                    1126 Aenean ac mauris at ex,<br>
+                    venenatis lobortis id in 11600 <br><br>
+                    <div class="textLinkContact">
+                        Email: <a class="textLinkContact">info@company.com</a><br>
+                        Tel: <a class="textLinkContact">010-020-0120</a><br>
+                        Fax: <a class="textLinkContact">090-080-0980</a><br>
+                    </div>
+                </address>
+
+            </div>
         </div>
 
 
         <section class="containerFooter">
             <div class="box-div-footer">
-              <h2>Need Help?</h2>
-              <p>Curabitur magna tellus, condimentum vitae consectetur id, elementum sit amet erat. Phasellus arcu leo,
-                sagittis
-                fringilla nisi et, pulvinar vestibulum mi. Maecenas mollis ullamcorper est at dignissim.</p>
-              <a href="" class="btnChat">Live Chat</a>
+                <h2>Need Help?</h2>
+                <p>Curabitur magna tellus, condimentum vitae consectetur id, elementum sit amet erat. Phasellus arcu
+                    leo,
+                    sagittis
+                    fringilla nisi et, pulvinar vestibulum mi. Maecenas mollis ullamcorper est at dignissim.</p>
+                <a href="" class="btnChat">Live Chat</a>
             </div>
-          </section>
-        </div>
-        <footer>
-          Copyright &copy; <span>2023</span> Shelf Company
-          - Designed by <a href="https://github.com/KelenVargas/ReproducaoTemplate">Ahysla & Kelen</a>
-        </footer>
-        <script src="./assets/script.js"></script>
+        </section>
+    </div>
+    <footer>
+        Copyright &copy; <span>2023</span> Shelf Company
+        - Designed by <a href="https://github.com/KelenVargas/ReproducaoTemplate">Ahysla & Kelen</a>
+    </footer>
+    <script src="./assets/script.js"></script>
 </body>
 
 </html>

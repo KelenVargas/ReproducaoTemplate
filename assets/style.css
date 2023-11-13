@@ -46,7 +46,7 @@ body {
 }
 
 /* quando o mouse passar no link*/
-a:hover {
+.navLink:hover {
     color: #bfddf3;
 }
 
@@ -245,10 +245,11 @@ h2 {
 footer {
     text-align: center;
     color: white;
+
 }
 
 footer a:hover {
-    color: yellow;
+    color: #FF3;
 }
 
 
@@ -264,4 +265,62 @@ footer a:hover {
 .btnChat:hover {
     background-color: white;
     color: #0066CC;
+}
+
+
+/*Pagina Formulario*/
+
+.TituloContact {
+    color: #1a5b86;
+
+}
+
+.formGroup {
+    margin-bottom: 1rem
+}
+
+.formControl {
+    border: 1px solid rgba(0, 0, 0, 0.37);
+    border-radius: 0;
+    font-size: 1.2rem;
+    padding: .75rem .75rem;
+}
+
+/* Botão form*/
+.btnSubmit {
+    color: white;
+    background-color: #186e9d;
+    display: inline-block;
+    font-size: 1.2rem;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    width: 160px;
+}
+
+.btnSubmit:hover {
+    color: white;
+    background-color: #389fd7;
+}
+
+.boxForm {
+    height: 100%;
+}
+
+div.op1 {
+    width: 38%;
+    display: inline-block;
+}
+
+div.op2 {
+    width: 38%;
+    display: inline-block;
+}
+
+.textLinkContact {
+    color: #076599;
+}
+
+.tm-address {
+    margin-bottom: 35px;
 }
