@@ -305,16 +305,19 @@ footer a:hover {
 
 .boxForm {
     height: 100%;
+    padding-left: 2%;
 }
 
 div.op1 {
     width: 38%;
     display: inline-block;
+    
 }
 
 div.op2 {
     width: 38%;
     display: inline-block;
+   
 }
 
 .textLinkContact {
