@@ -1,11 +1,11 @@
-
 body {
-	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-	font-size: 18px;
-	background: url('../assets/img/shelf-bg.jpg');
-	padding: 0 15px;
-	overflow-x: hidden;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    background: url('../assets/img/shelf-bg.jpg');
+    padding: 0 15px;
+    overflow-x: hidden;
 }
+
 .cabecalho {
     background: url('./img/header-01.jpg') no-repeat;
     position: relative;
@@ -24,15 +24,15 @@ body {
 .container-Navbar {
     height: 60px;
     display: flex;
-    flex-flow:column;
+    flex-flow: column;
 }
 
 .navBar {
     position: relative;
     bottom: 75px;
     background-color: rgba(58, 57, 57, 0.5);
-    
-    
+
+
 }
 
 .Titulo {
@@ -62,8 +62,10 @@ a {
 }
 
 .navBar-ul li a.navLink.active {
-    color: #bfddf3; /* Cor do texto do link ativo */
+    color: #bfddf3;
+    /* Cor do texto do link ativo */
 }
+
 .navBar-ul {
     display: flex;
     justify-content: space-evenly;
@@ -73,25 +75,27 @@ a {
 /*
 Index */
 
-.subTitulo2{
+.subTitulo2 {
     color: grey;
-   font-style: oblique;
-   font-size: 30px;
-   padding-bottom: 25px;
-   
+    font-style: oblique;
+    font-size: 30px;
+    padding-bottom: 25px;
+
 }
 
-.corpo-texto{
-    padding: 35px 30px; 
+.corpo-texto {
+    padding: 35px 30px;
+
 }
 
 
 .container {
-	background-color: white;
+    background-color: white;
     max-width: 1120px;
     padding: 0;
-    margin: 0 auto;  
+    margin: 0 auto;
 }
+
 .galeria {
     padding-top: 60px;
     padding-bottom: 35px;
@@ -107,7 +111,7 @@ Index */
 
 .item-galeria {
     position: relative;
-    flex: 1 0 15%; 
+    flex: 1 0 15%;
     padding: 0 10px;
 }
 
@@ -131,7 +135,7 @@ Index */
     padding-top: 15px;
     padding-bottom: 30px;
     text-align: center;
-    color: 	#4F4F4F;
+    color: #4F4F4F;
     font-size: 20px;
 }
 
@@ -175,6 +179,7 @@ Index */
     margin-left: auto;
     margin-right: auto;
 }
+
 .navegacao-galeria {
     position: relative;
     bottom: 20px;
@@ -213,8 +218,50 @@ Index */
     text-decoration: none;
     font-size: 18px;
 }
-.texto-preview{
+
+.texto-preview {
     position: relative;
     align-items: center;
 }
-    
+
+
+/*Footer*/
+
+
+.containerFooter {
+    background-color: #076599;
+    color: white;
+    padding: 50px 30px;
+    width: 80%;
+    margin: 80px;
+
+}
+
+h2 {
+    font-size: 35px;
+    padding-bottom: 15px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+}
+
+footer a:hover {
+    color: yellow;
+}
+
+
+/*botão live chat*/
+.btnChat {
+    color: white;
+    border: 1px solid white;
+    padding: 10px 25px;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.btnChat:hover {
+    background-color: white;
+    color: #0066CC;
+}
