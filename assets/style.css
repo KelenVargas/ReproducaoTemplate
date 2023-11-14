@@ -219,10 +219,6 @@ Index */
     font-size: 18px;
 }
 
-.texto-preview {
-    position: relative;
-    align-items: center;
-}
 
 
 /*Footer*/
@@ -323,4 +319,40 @@ div.op2 {
 
 .tm-address {
     margin-bottom: 35px;
+}
+
+.content{
+    display: flex;
+}
+
+.content img{
+    max-width: 50%;
+    height: auto;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.text-container{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+   h3{
+ color: #076599;
+ font-weight: normal;
+ font-size: 40px;
+ font-family: Arial, Helvetica, sans-serif;
+ padding-bottom: 5%;
+}
+
+.paragrafo{
+    font-size: 20px;
+    margin: 0 0 10px;
+    font-weight: normal;
+}
+
+.text-container p + p{
+    text-align: left;
+    line-height: 28px;
 }
