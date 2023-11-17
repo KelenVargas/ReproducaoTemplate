@@ -338,7 +338,7 @@ div.op2 {
     padding-left: 50px;
 }
 
-.text-container{
+.text-container {
     max-width: 800px;
     text-align: left;
 }
@@ -346,16 +346,43 @@ div.op2 {
    h3{
     color: #076599;
     font-size: 30px;
-    padding-bottom: 15%;
+    padding-bottom: 5%;
 }
 
-p{
+.paragrafo-preview{
     color: #666;
     font-size: 20px;
     line-height: 2;
     margin-bottom: 10px;
 }
+.paragrafo{
+    font-size: 20px;
+    color: #076599;
+    padding-bottom: 6%;
+}
+.avaliacao {
+    font-size: 20px;
+    color:#076599;
+    display: flex;
+    align-items: center; 
+}
 
+.avaliacao img {
+    width: 35px;
+    height:35px;
+    margin-left: -10%;
+    margin-right: -12%; 
+}
+
+a.link-previeww-2 {
+    color: #076599;
+    text-decoration: none; 
+    font-size: 21px;
+}
+
+.link-previeww-2:hover {
+    text-decoration: none; 
+}
 .minha-galeria {
     display: flex;
     justify-content: center;
@@ -363,7 +390,7 @@ p{
 }
 
 .meu-item-galeria {
-    width: 250px;
+    width: 255px;
     margin: 10px;
     position: relative;
     overflow: hidden;
@@ -377,11 +404,49 @@ p{
 .meu-centro-imagem {
     width: 100%;
     height: auto;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease;
 }
 
 .minha-legenda-galeria {
-    margin: 0;  
     font-size: 16px;
-    color:#4F4F4F;
+    color: #4F4F4F;
+    text-align: center;
+}
+
+.meu-item-galeria:hover .minha-sobreposicao-galeria {
+    background-color: #0066CC; 
+}
+
+.meu-item-galeria:hover .meu-centro-imagem {
+    transform: scale(1.2); 
+    opacity: 0.7; 
+}
+
+
+.meu-botao-azul {
+    display: inline-block;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #4289af;
+    color: #fff;
+    transition: opacity 0.3s ease;
+}
+
+/* Estilos específicos para o botão cinza */
+.meu-botao-cinza {
+    display: inline-block;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    background-color:#ededed;
+    color: #0066CC;
+    transition: opacity 0.3s ease;
+}
+
+
+/* Hover effect */
+.meu-botao-cinza:hover,
+.meu-botao-azul:hover {
+    opacity: 0.8;
 }
