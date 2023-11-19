@@ -31,8 +31,6 @@ body {
     position: relative;
     bottom: 75px;
     background-color: rgba(58, 57, 57, 0.5);
-
-
 }
 
 .Titulo {
@@ -50,9 +48,7 @@ body {
     color: #bfddf3;
 }
 
-
 a:link {
-
     text-decoration: none;
     font-size: 25px;
 }
@@ -72,22 +68,17 @@ a {
     margin-top: 15px;
 }
 
-/*
-Index */
-
+/*Index */
 .subTitulo2 {
     color: grey;
     font-style: oblique;
     font-size: 30px;
     padding-bottom: 25px;
-
 }
 
 .corpo-texto {
     padding: 35px 30px;
-
 }
-
 
 .container {
     background-color: white;
@@ -128,7 +119,6 @@ Index */
 
 .item-galeria:hover img {
     opacity: 0.5;
-
 }
 
 .legenda-figura {
@@ -166,7 +156,6 @@ Index */
     background-color: #186e9d;
     color: white;
 }
-
 
 .img-centro {
     display: block;
@@ -212,25 +201,19 @@ Index */
     background-color: #186e9d;
 }
 
-
 .item-navegacao a {
     color: #4F4F4F;
     text-decoration: none;
     font-size: 18px;
 }
 
-
-
 /*Footer*/
-
-
 .containerFooter {
     background-color: #076599;
     color: white;
     padding: 50px 30px;
     width: 80%;
     margin: 80px;
-
 }
 
 h2 {
@@ -241,13 +224,11 @@ h2 {
 footer {
     text-align: center;
     color: white;
-
 }
 
 footer a:hover {
     color: #FF3;
 }
-
 
 /*botão live chat*/
 .btnChat {
@@ -263,12 +244,9 @@ footer a:hover {
     color: #0066CC;
 }
 
-
 /*Pagina Formulario*/
-
 .TituloContact {
     color: #1a5b86;
-
 }
 
 .formGroup {
@@ -313,7 +291,6 @@ div.op1 {
 div.op2 {
     width: 38%;
     display: inline-block;
-
 }
 
 .textLinkContact {
@@ -451,16 +428,10 @@ a.link-previeww-2 {
     margin-top: 5%;
 }
 
-
-
 .meu-botao-cinza:hover,
 .meu-botao-azul:hover {
     opacity: 0.8;
 }
-
-
-
-
 
 .icon-text-section {
     display: flex;
@@ -476,7 +447,6 @@ a.link-previeww-2 {
 .icon-container {
     margin-bottom: 15px;
 }
-
 
 .fa-linode,
 .fa-telegram,
@@ -494,7 +464,6 @@ a.link-previeww-2 {
 }
 
 /*Página our team*/
-
 .equipe {
     display: flex;
     justify-content: space-between;
@@ -505,13 +474,12 @@ a.link-previeww-2 {
     color: #186e9d;
 }
 
-
 .membro-equipe {
     margin-left: 35px;
 }
 
 .membro-equipe-2 {
-    background-color: #428BCA;
+    background-color: #076599;
     color: white;
     padding: 50px 30px;
     margin-top: 45px;
@@ -520,20 +488,43 @@ a.link-previeww-2 {
 
 .paragrafo-time {
     margin-bottom: 35px;
- 
+}
+
+.membro-equipe-3 {
+    background-color: #076599;
+    width: 90%;
+    margin: 50px;
+}
+
+.title-box1 {
+    color: #FFFFFF;
+}
+
+.title-box2 {
+    color: #BAF0CD;
+}
+
+.div-box {
+    width: 350px;
+    height: 350px;
+    display: inline-block;
+}
+
+.membro-equipe-3 {
+    color: white;
+}
+
+.div-box2 {
+    padding: 50px;
+}
+
+.p-div-box2 {
+    padding: 15px;
 }
 
 
 
-/* .membro-equipe,
-.membro-equipe-2 {
-    width: 100%;
-}
-
-.membro-equipe-2 {
-    
-}
-
+/* 
 .paragrafo-time,
 .paragrafo-time-2 {
     text-align: left;
