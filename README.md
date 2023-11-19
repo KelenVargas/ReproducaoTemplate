@@ -29,7 +29,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 Conforme solicitado em aula, nosso trabalho para ser transcrito conforme nossas habilidades, foi retirado do site Tooplates.
 Abaixo está o link do nosso site escolhido.
 
-<img src="https://img.shields.io/badge/--007ACC?logo=alby"> [Tooplate](https://www.tooplate.com/view/2092-shelf) 
+<img src="https://img.shields.io/badge/--007ACC?logo=alby"> [Tooplate](https://www.tooplate.com/live/2092_shelf) 
 
 
 
