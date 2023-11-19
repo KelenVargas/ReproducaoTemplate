@@ -26,12 +26,15 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [ ] expandir as páginas
 
 <h2> 🚀 Site de ideias de reprodução</h2>
-Conforme solicitado em aula, nosso trabalho para ser transcrito conforme nossas habilidades, foi retirado do site Tooplates.
+Conforme solicitado em aula a idéia do site foi retirado do site Tooplates.
 Abaixo está o link do nosso site escolhido.
 
 <img src="https://img.shields.io/badge/--007ACC?logo=alby"> [Tooplate](https://www.tooplate.com/live/2092_shelf) 
 
+<h2> 🚀 Nosso site reproduzido</h2>
+Abaixo está o link do gitHub Pages para verificar a reprodução do site.
 
+<img src="https://img.shields.io/badge/--007ACC?logo=hootsuite"> [Site Reproduzido](https://kelenvargas.github.io/ReproducaoTemplate/)
 
 <h2> 🤝 Colaboradores</h2>
 <table>
