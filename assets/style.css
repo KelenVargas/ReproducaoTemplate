@@ -307,13 +307,13 @@ footer a:hover {
 div.op1 {
     width: 38%;
     display: inline-block;
-    
+
 }
 
 div.op2 {
     width: 38%;
     display: inline-block;
-   
+
 }
 
 .textLinkContact {
@@ -324,14 +324,14 @@ div.op2 {
     margin-bottom: 35px;
 }
 
-.content{
+.content {
     display: flex;
     justify-content: space-between;
     max-width: 1120px;
     padding: 20px;
 }
 
-.content img{
+.content img {
     max-width: 150%;
     height: auto;
     padding-right: 50px;
@@ -343,46 +343,49 @@ div.op2 {
     text-align: left;
 }
 
-   h3{
+h3 {
     color: #076599;
     font-size: 30px;
     padding-bottom: 5%;
 }
 
-.paragrafo-preview{
+.paragrafo-preview {
     color: #666;
     font-size: 20px;
     line-height: 2.5;
     padding-bottom: 5%;
 }
-.paragrafo{
+
+.paragrafo {
     font-size: 20px;
     color: #076599;
     padding-bottom: 6%;
 }
+
 .avaliacao {
     font-size: 20px;
-    color:#076599;
+    color: #076599;
     display: flex;
-    align-items: center; 
+    align-items: center;
 }
 
 .avaliacao img {
     width: 35px;
-    height:35px;
+    height: 35px;
     margin-left: -1%;
-    margin-right: -10%; 
+    margin-right: -10%;
 }
 
 a.link-previeww-2 {
     color: #076599;
-    text-decoration: none; 
+    text-decoration: none;
     font-size: 21px;
 }
 
 .link-previeww-2:hover {
-    text-decoration: none; 
+    text-decoration: none;
 }
+
 .minha-galeria {
     display: flex;
     justify-content: center;
@@ -417,12 +420,12 @@ a.link-previeww-2 {
 }
 
 .meu-item-galeria:hover .minha-sobreposicao-galeria {
-    background-color: #0066CC; 
+    background-color: #0066CC;
 }
 
 .meu-item-galeria:hover .meu-centro-imagem {
-    transform: scale(1.2); 
-    opacity: 0.7; 
+    transform: scale(1.2);
+    opacity: 0.7;
 }
 
 
@@ -442,7 +445,7 @@ a.link-previeww-2 {
     padding: 10px 45px;
     text-align: center;
     text-decoration: none;
-    background-color:#ededed;
+    background-color: #ededed;
     color: #0066CC;
     transition: opacity 0.3s ease;
     margin-top: 5%;
@@ -454,21 +457,10 @@ a.link-previeww-2 {
 .meu-botao-azul:hover {
     opacity: 0.8;
 }
-                                    
-.equipe {
-    display: flex;
-    justify-content: space-between; 
-}
 
-.membro-equipe,
-.membro-equipe-2 {
-    width: 100%;
-}
 
-.paragrafo-time,
-.paragrafo-time-2 {
-    text-align: left;
-}
+
+
 
 .icon-text-section {
     display: flex;
@@ -489,7 +481,7 @@ a.link-previeww-2 {
 .fa-linode,
 .fa-telegram,
 .fa-superpowers {
-    font-size: 5em; 
+    font-size: 5em;
 }
 
 .item-header {
@@ -501,3 +493,48 @@ a.link-previeww-2 {
     color: #186e9d;
 }
 
+/*Página our team*/
+
+.equipe {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.nossoTime {
+    color: #186e9d;
+}
+
+
+.membro-equipe {
+    margin-left: 35px;
+}
+
+.membro-equipe-2 {
+    background-color: #428BCA;
+    color: white;
+    padding: 50px 30px;
+    margin-top: 45px;
+    margin-right: 50px;
+}
+
+.paragrafo-time {
+    margin-bottom: 35px;
+ 
+}
+
+
+
+/* .membro-equipe,
+.membro-equipe-2 {
+    width: 100%;
+}
+
+.membro-equipe-2 {
+    
+}
+
+.paragrafo-time,
+.paragrafo-time-2 {
+    text-align: left;
+} */
